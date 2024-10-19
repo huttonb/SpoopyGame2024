@@ -1,0 +1,18 @@
+[gd_resource type="StandardMaterial3D" load_steps=5 format=3 uid="uid://blpld6edgjbwf"]
+
+[ext_resource type="Texture2D" uid="uid://4v1uytldlyqt" path="res://Assets/MI_Trim_01_Stairs/T_Trim_01_BaseColor.png" id="1_jwjxc"]
+[ext_resource type="Texture2D" uid="uid://dmbpsmi4vbg4o" path="res://Assets/MI_Trim_01_Stairs/T_Trim_01_ORM.png" id="2_bewku"]
+[ext_resource type="Texture2D" uid="uid://cbvl76chb6858" path="res://Assets/MI_Trim_01_Stairs/T_Trim_01_Emissive.png" id="3_cs3rj"]
+[ext_resource type="Texture2D" uid="uid://ojjumab42xli" path="res://Assets/MI_Trim_01_Stairs/T_Trim_01_Normal.png" id="4_1ma0p"]
+
+[resource]
+albedo_texture = ExtResource("1_jwjxc")
+metallic = 1.0
+metallic_texture = ExtResource("2_bewku")
+roughness_texture = ExtResource("2_bewku")
+emission_enabled = true
+emission_texture = ExtResource("3_cs3rj")
+normal_enabled = true
+normal_texture = ExtResource("4_1ma0p")
+ao_enabled = true
+ao_texture = ExtResource("2_bewku")

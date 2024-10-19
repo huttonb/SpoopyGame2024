@@ -1,0 +1,19 @@
+[gd_resource type="StandardMaterial3D" load_steps=5 format=3 uid="uid://doi7ctxt6sk57"]
+
+[ext_resource type="Texture2D" uid="uid://yqahn644snfy" path="res://Assets/MI_PaddedWall/T_PaddedWall_BaseColor.png" id="1_c01w4"]
+[ext_resource type="Texture2D" uid="uid://ejubjsf6nbe3" path="res://Assets/MI_PaddedWall/T_PaddedWall_ORM.png" id="2_c0hem"]
+[ext_resource type="Texture2D" uid="uid://1aulsp2gv0eu" path="res://Assets/MI_PaddedWall/T_PaddingWall_Emissive.png" id="3_l7k35"]
+[ext_resource type="Texture2D" uid="uid://c67x7sgoflpwo" path="res://Assets/MI_PaddedWall/T_PaddedWall_Normal.png" id="4_3p8wf"]
+
+[resource]
+albedo_texture = ExtResource("1_c01w4")
+metallic = 1.0
+metallic_texture = ExtResource("2_c0hem")
+roughness_texture = ExtResource("2_c0hem")
+emission_enabled = true
+emission_texture = ExtResource("3_l7k35")
+normal_enabled = true
+normal_texture = ExtResource("4_3p8wf")
+ao_enabled = true
+ao_texture = ExtResource("2_c0hem")
+backlight_texture = ExtResource("3_l7k35")
